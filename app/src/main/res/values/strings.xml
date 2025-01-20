@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">PracticaTema6</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Menu lateral -->
+    <string name="menu_series">Series</string>
+    <string name="menu_peliculas">Películas</string>
+
+    <!-- Nombre peliculas -->
+    <string name="pelicula_el_padrino">El Padrino</string>
+    <string name="pelicula_pulp_fiction">Pulp Fiction</string>
+    <string name="pelicula_titanic">Titanic</string>
+    <string name="pelicula_forrest_gump">Forrest Gump</string>
+    <string name="pelicula_casablanca">Casablanca</string>
+    <string name="pelicula_el_senor_de_los_anillos">El Señor de los Anillos</string>
+    <string name="pelicula_star_wars">Star Wars</string>
+    <string name="pelicula_gladiator">Gladiator</string>
+
+
+    <!-- Nombre series -->
+    <string name="serie_breaking_bad">Breaking Bad</string>
+    <string name="serie_game_of_thrones">Game of Thrones</string>
+    <string name="serie_stranger_things">Stranger Things</string>
+    <string name="serie_the_office">The Office</string>
+    <string name="serie_sherlock">Sherlock</string>
+    <string name="serie_friends">Friends</string>
+    <string name="serie_how_i_met_your_mother">How I Met Your Mother</string>
+    <string name="serie_the_crown">The Crown</string>
+
+
+
+
+</resources>
