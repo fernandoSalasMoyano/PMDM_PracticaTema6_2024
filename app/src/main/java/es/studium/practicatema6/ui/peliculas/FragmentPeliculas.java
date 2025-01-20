@@ -11,20 +11,21 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 
 import java.util.ArrayList;
 
+import es.studium.practicatema6.MiAdaptador;
 import es.studium.practicatema6.R;
 
 public class FragmentPeliculas extends Fragment
 {
     private FragmentPeliculasViewModel mViewModel;
     ListView listaPeliculas;
-    ArrayList<String> elementosPeliculas;
+    ArrayList<String> titulosPeliculas;
+    ArrayList<Integer> imagenesPeliculas;
 
     public static FragmentPeliculas newInstance()
     {
@@ -41,27 +42,40 @@ public class FragmentPeliculas extends Fragment
         // Inicializar la ListView
         listaPeliculas = root.findViewById(R.id.miLista);
 
-        // Inicializar el ArrayList de películas
-        elementosPeliculas = new ArrayList<>();
-        elementosPeliculas.add(getString(R.string.pelicula_el_padrino));
-        elementosPeliculas.add(getString(R.string.pelicula_titanic));
-        elementosPeliculas.add(getString(R.string.pelicula_casablanca));
-        elementosPeliculas.add(getString(R.string.pelicula_gladiator));
-        elementosPeliculas.add(getString(R.string.pelicula_forrest_gump));
-        elementosPeliculas.add(getString(R.string.pelicula_el_senor_de_los_anillos));
-        elementosPeliculas.add(getString(R.string.pelicula_pulp_fiction));
-        elementosPeliculas.add(getString(R.string.pelicula_star_wars));
+        // Inicializar el ArrayList de titulos de películas
+        titulosPeliculas = new ArrayList<>();
+        titulosPeliculas.add(getString(R.string.pelicula_el_padrino));
+        titulosPeliculas.add(getString(R.string.pelicula_titanic));
+        titulosPeliculas.add(getString(R.string.pelicula_casablanca));
+        titulosPeliculas.add(getString(R.string.pelicula_gladiator));
+        titulosPeliculas.add(getString(R.string.pelicula_forrest_gump));
+        titulosPeliculas.add(getString(R.string.pelicula_el_senor_de_los_anillos));
+        titulosPeliculas.add(getString(R.string.pelicula_pulp_fiction));
+        titulosPeliculas.add(getString(R.string.pelicula_star_wars));
+
+        // Inicializar el ArrayList de imagenes de películas
+        imagenesPeliculas = new ArrayList<>();
+        imagenesPeliculas.add(R.drawable.el_padrino);
+        imagenesPeliculas.add(R.drawable.titanic);
+        imagenesPeliculas.add(R.drawable.casablanca);
+        imagenesPeliculas.add(R.drawable.gladiator);
+        imagenesPeliculas.add(R.drawable.forrest_gump);
+        imagenesPeliculas.add(R.drawable.el_senor_de_los_anillos);
+        imagenesPeliculas.add(R.drawable.pulp_fiction);
+        imagenesPeliculas.add(R.drawable.star_wars);
+
+
 
         // Crear un Adaptador
-        ArrayAdapter<String> adaptador = new ArrayAdapter<>(requireContext(),
-                android.R.layout.simple_list_item_1, elementosPeliculas);
+        MiAdaptador adaptador = new MiAdaptador(requireContext(),
+                R.layout.lista_item, titulosPeliculas, imagenesPeliculas);
 
         // Asignar el adaptador a la ListView
         listaPeliculas.setAdapter(adaptador);
 
         // Configurar el evento onItemClick
         listaPeliculas.setOnItemClickListener((parent, view, position, id) ->
-                Toast.makeText(requireContext(), "Has elegido " + elementosPeliculas.get(position),
+                Toast.makeText(requireContext(), "Has elegido " + titulosPeliculas.get(position),
                         Toast.LENGTH_LONG).show()
         );
 
