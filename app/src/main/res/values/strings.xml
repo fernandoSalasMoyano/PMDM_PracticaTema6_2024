@@ -12,14 +12,45 @@
     <string name="menu_peliculas">Películas</string>
 
     <!-- Nombre peliculas -->
-    <string name="pelicula_el_padrino">El Padrino</string>
-    <string name="pelicula_pulp_fiction">Pulp Fiction</string>
-    <string name="pelicula_titanic">Titanic</string>
-    <string name="pelicula_forrest_gump">Forrest Gump</string>
-    <string name="pelicula_casablanca">Casablanca</string>
-    <string name="pelicula_el_senor_de_los_anillos">El Señor de los Anillos</string>
-    <string name="pelicula_star_wars">Star Wars</string>
-    <string name="pelicula_gladiator">Gladiator</string>
+    <string name="pelicula_el_padrino">EL PADRINO</string>
+    <string name="pelicula_pulp_fiction">PULP FICTION</string>
+    <string name="pelicula_titanic">TITANIC</string>
+    <string name="pelicula_forrest_gump">FORREST GUMP</string>
+    <string name="pelicula_casablanca">CASABLANCA</string>
+    <string name="pelicula_el_senor_de_los_anillos">EL SEÑOR DE LOS ANILLOS</string>
+    <string name="pelicula_star_wars">STAR WARS: EPISODIO VI</string>
+    <string name="pelicula_gladiator">GLADIATOR</string>
+
+
+    <!-- Reparto peliculas -->
+    <string name="reparto_el_padrino">REPARTO\nMarlon Brando, Al Pacino, James Caan, Robert Duvall, Diane Keaton</string>
+    <string name="reparto_pulp_fiction">REPARTO\nJohn Travolta, Samuel L. Jackson, Uma Thurman, Bruce Willis, Ving Rhames</string>
+    <string name="reparto_titanic">REPARTO\nLeonardo DiCaprio, Kate Winslet, Billy Zane, Kathy Bates, Frances Fisher</string>
+    <string name="reparto_forrest_gump">REPARTO\nTom Hanks, Robin Wright, Gary Sinise, Mykelti Williamson, Sally Field</string>
+    <string name="reparto_casablanca">REPARTO\nHumphrey Bogart, Ingrid Bergman, Paul Henreid, Claude Rains, Conrad Veidt</string>
+    <string name="reparto_el_senor_de_los_anillos">REPARTO\nElijah Wood, Ian McKellen, Viggo Mortensen, Sean Astin, Orlando Bloom</string>
+    <string name="reparto_star_wars">REPARTO\nMark Hamill, Harrison Ford, Carrie Fisher, Alec Guinness, Peter Cushing</string>
+    <string name="reparto_gladiator">REPARTO\nRussell Crowe, Joaquin Phoenix, Connie Nielsen, Oliver Reed, Richard Harris</string>
+
+    <!-- Directores peliculas -->
+    <string name="director_el_padrino">DIRECTOR\nFrancis Ford Coppola</string>
+    <string name="director_pulp_fiction">DIRECTOR\nQuentin Tarantino</string>
+    <string name="director_titanic">DIRECTOR\nJames Cameron</string>
+    <string name="director_forrest_gump">DIRECTOR\nRobert Zemeckis</string>
+    <string name="director_casablanca">DIRECTOR\nMichael Curtiz</string>
+    <string name="director_el_senor_de_los_anillos">DIRECTOR\nPeter Jackson</string>
+    <string name="director_star_wars">DIRECTOR\nGeorge Lucas</string>
+    <string name="director_gladiator">DIRECTOR\nRidley Scott</string>
+
+    <!-- Sinopsis peliculas -->
+    <string name="sinopsis_el_padrino">SINOPSIS\nAmbientada en los años 40, la película sigue a la familia Corleone, una de las más poderosas familias mafiosas de Nueva York. Don Vito Corleone (Marlon Brando) es el respetado y temido jefe de la familia. La historia se centra en su hijo Michael (Al Pacino), quien inicialmente no quiere involucrarse en los negocios familiares, pero termina convirtiéndose en un implacable jefe de la mafia.</string>
+    <string name="sinopsis_pulp_fiction">SINOPSIS\nEsta película entrelaza varias historias de personajes relacionados con el crimen organizado en Los Ángeles. Los diálogos estilizados, la mezcla de humor y violencia, y su narrativa no lineal la distinguen. Los protagonistas incluyen a dos asesinos a sueldo, un boxeador, la esposa de un gánster y un par de delincuentes de poca monta.</string>
+    <string name="sinopsis_titanic">SINOPSIS\nLa historia de amor entre Jack (Leonardo DiCaprio), un joven artista, y Rose (Kate Winslet), una joven de una familia acomodada, se desarrolla a bordo del Titanic, el transatlántico más grande y seguro jamás construido. Su romance se ve amenazado por el prometido de Rose y el trágico hundimiento del barco tras chocar con un iceberg.</string>
+    <string name="sinopsis_forrest_gump">SINOPSIS\nForrest Gump (Tom Hanks) es un hombre con una leve discapacidad intelectual que, a pesar de sus limitaciones, se convierte en testigo y protagonista de muchos de los momentos más importantes de la historia de Estados Unidos en la segunda mitad del siglo XX. La película sigue su vida desde su infancia en Alabama hasta su participación en la guerra de Vietnam y su éxito como corredor de maratones.</string>
+    <string name="sinopsis_casablanca">SINOPSIS\nAmbientada durante la Segunda Guerra Mundial, la película narra el drama romántico entre Rick Blaine (Humphrey Bogart), el dueño de un café en Casablanca, y su antigua amante Ilsa Lund (Ingrid Bergman). Rick debe decidir entre ayudar a Ilsa y su esposo, un líder de la resistencia, a escapar de los nazis, o quedarse con ella.</string>
+    <string name="sinopsis_el_senor_de_los_anillos">SINOPSIS\nLa historia sigue a Frodo Bolsón, un hobbit que debe destruir el Anillo Único para evitar que el señor oscuro Sauron recupere su poder. Acompañado por un grupo de valientes compañeros, incluyendo al mago Gandalf, el guerrero Aragorn, el elfo Legolas y el enano Gimli, Frodo emprende un peligroso viaje hacia Mordor.</string>
+    <string name="sinopsis_star_wars">SINOPSIS\nLa saga de Star Wars se desarrolla en una galaxia ficticia y sigue las vivencias de personajes que interactúan con "la Fuerza", un campo de energía metafísico. La historia principal se centra en la lucha entre los Jedi, que usan el lado luminoso de la Fuerza, y los Sith, que usan el lado oscuro. La primera película, "Star Wars: Episodio VI - El retorno del Jedi", sigue a Luke Skywalker mientras se une a la Alianza Rebelde para luchar contra el Imperio Galáctico.</string>
+    <string name="sinopsis_gladiator">SINOPSIS\nLa película sigue a Máximo Décimo Meridio (Russell Crowe), un leal general del ejército romano que es traicionado por Cómodo (Joaquin Phoenix), el hijo del emperador Marco Aurelio. Forzado a convertirse en esclavo, Máximo triunfa como gladiador mientras busca vengar la muerte de su familia y del emperador.</string>
 
 
     <!-- Nombre series -->
@@ -31,8 +62,4 @@
     <string name="serie_friends">Friends</string>
     <string name="serie_how_i_met_your_mother">How I Met Your Mother</string>
     <string name="serie_the_crown">The Crown</string>
-
-
-
-
 </resources>
