@@ -52,14 +52,45 @@
     <string name="sinopsis_star_wars">SINOPSIS\nLa saga de Star Wars se desarrolla en una galaxia ficticia y sigue las vivencias de personajes que interactúan con "la Fuerza", un campo de energía metafísico. La historia principal se centra en la lucha entre los Jedi, que usan el lado luminoso de la Fuerza, y los Sith, que usan el lado oscuro. La primera película, "Star Wars: Episodio VI - El retorno del Jedi", sigue a Luke Skywalker mientras se une a la Alianza Rebelde para luchar contra el Imperio Galáctico.</string>
     <string name="sinopsis_gladiator">SINOPSIS\nLa película sigue a Máximo Décimo Meridio (Russell Crowe), un leal general del ejército romano que es traicionado por Cómodo (Joaquin Phoenix), el hijo del emperador Marco Aurelio. Forzado a convertirse en esclavo, Máximo triunfa como gladiador mientras busca vengar la muerte de su familia y del emperador.</string>
 
-
     <!-- Nombre series -->
-    <string name="serie_breaking_bad">Breaking Bad</string>
-    <string name="serie_game_of_thrones">Game of Thrones</string>
-    <string name="serie_stranger_things">Stranger Things</string>
-    <string name="serie_the_office">The Office</string>
-    <string name="serie_sherlock">Sherlock</string>
-    <string name="serie_friends">Friends</string>
-    <string name="serie_how_i_met_your_mother">How I Met Your Mother</string>
-    <string name="serie_the_crown">The Crown</string>
+    <string name="serie_breaking_bad">BREAKING BAD</string>
+    <string name="serie_game_of_thrones">GAME OF THRONES</string>
+    <string name="serie_stranger_things">STRANGER THINGS</string>
+    <string name="serie_the_office">THE OFFICE</string>
+    <string name="serie_sherlock">SHERLOCK</string>
+    <string name="serie_friends">FRIENDS</string>
+    <string name="serie_how_i_met_your_mother">HOW I MET YOUR MOTHER</string>
+    <string name="serie_the_crown">THE CROWN</string>
+
+
+    <!-- Reparto series -->
+    <string name="reparto_breaking_bad">REPARTO\nBryan Cranston, Aaron Paul, Anna Gunn, Dean Norris, Bob Odenkirk</string>
+    <string name="reparto_game_of_thrones">REPARTO\nEmilia Clarke, Kit Harington, Lena Headey, Peter Dinklage, Nikolaj Coster-Waldau</string>
+    <string name="reparto_stranger_things">REPARTO\nMillie Bobby Brown, Finn Wolfhard, Winona Ryder, David Harbour, Gaten Matarazzo</string>
+    <string name="reparto_the_office">REPARTO\nSteve Carell, Rainn Wilson, John Krasinski, Jenna Fischer, B.J. Novak</string>
+    <string name="reparto_sherlock">REPARTO\nBenedict Cumberbatch, Martin Freeman, Rupert Graves, Andrew Scott, Una Stubbs</string>
+    <string name="reparto_friends">REPARTO\nJennifer Aniston, Courteney Cox, Lisa Kudrow, Matt LeBlanc, Matthew Perry, David Schwimmer</string>
+    <string name="reparto_how_i_met_your_mother">REPARTO\nJosh Radnor, Jason Segel, Cobie Smulders, Neil Patrick Harris, Alyson Hannigan</string>
+    <string name="reparto_the_crown">REPARTO\nClaire Foy, Olivia Colman, Matt Smith, Tobias Menzies, Helena Bonham Carter</string>
+
+    <!-- Creadores series -->
+    <string name="creador_breaking_bad">CREADOR\nVince Gilligan</string>
+    <string name="creador_game_of_thrones">CREADORES\nDavid Benioff, D.B. Weiss</string>
+    <string name="creador_stranger_things">CREADORES\nMatt Duffer, Ross Duffer</string>
+    <string name="creador_the_office">CREADOR\nGreg Daniels (adaptación estadounidense)</string>
+    <string name="creador_sherlock">CREADORES\nMark Gatiss, Steven Moffat</string>
+    <string name="creador_friends">CREADORES\nDavid Crane, Marta Kauffman</string>
+    <string name="creador_how_i_met_your_mother">CREADORES\nCarter Bays, Craig Thomas</string>
+    <string name="creador_the_crown">CREADOR\nPeter Morgan</string>
+
+    <!-- Sinopsis series -->
+    <string name="sinopsis_breaking_bad">SINOPSIS\nWalter White, un profesor de química que se convierte en fabricante de metanfetaminas tras ser diagnosticado con cáncer terminal, une fuerzas con su exalumno Jesse Pinkman. Juntos navegan el peligroso mundo del crimen organizado, enfrentándose a enemigos y a sus propias transformaciones personales.</string>
+    <string name="sinopsis_game_of_thrones">SINOPSIS\nEn el continente ficticio de Westeros, varias familias nobles compiten por el Trono de Hierro mientras fuerzas sobrenaturales amenazan con destruir el reino. La serie explora temas de poder, traición, y lealtad, mezclando intrigas políticas con batallas épicas.</string>
+    <string name="sinopsis_stranger_things">SINOPSIS\nEn la pequeña ciudad de Hawkins, Indiana, un grupo de niños se encuentra con eventos sobrenaturales, incluidos experimentos secretos del gobierno, dimensiones paralelas y una niña con poderes telequinéticos. Todo comienza con la desaparición de uno de sus amigos.</string>
+    <string name="sinopsis_the_office">SINOPSIS\nUn falso documental que sigue la vida diaria de los empleados de Dunder Mifflin, una empresa de papel. Con un humor único y personajes memorables, la serie retrata las absurdidades del lugar de trabajo y las relaciones humanas que se desarrollan allí.</string>
+    <string name="sinopsis_sherlock">SINOPSIS\nUna adaptación moderna de los casos del detective Sherlock Holmes y su compañero John Watson en el Londres actual. Con un enfoque en las deducciones ingeniosas y los giros de la trama, la serie es un emocionante viaje por misterios contemporáneos.</string>
+    <string name="sinopsis_friends">SINOPSIS\nUn grupo de seis amigos en la ciudad de Nueva York navega por las complicaciones de la vida, el amor y la amistad. A través de su humor y corazón, la serie captura los altibajos de las relaciones modernas.</string>
+    <string name="sinopsis_how_i_met_your_mother">SINOPSIS\nTed Mosby cuenta a sus hijos la historia de cómo conoció a su madre, narrando una serie de eventos cómicos y románticos con sus amigos en Nueva York. La serie mezcla humor y emoción mientras explora la búsqueda del amor y el significado de la amistad.</string>
+    <string name="sinopsis_the_crown">SINOPSIS\nUn drama biográfico que sigue la vida de la reina Isabel II desde su matrimonio en 1947 hasta la actualidad. La serie explora los desafíos personales y políticos enfrentados por la monarca y su familia real.</string>
+
 </resources>

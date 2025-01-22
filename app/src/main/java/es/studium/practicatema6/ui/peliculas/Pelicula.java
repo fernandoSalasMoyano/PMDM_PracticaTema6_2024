@@ -8,6 +8,7 @@ public class Pelicula {
     private String reparto;
     private String sinopsis;
 
+
     public Pelicula(String titulo, int imagenResId, String director, float calificacion, String reparto, String sinopsis) {
         this.titulo = titulo;
         this.imagenResId = imagenResId;
