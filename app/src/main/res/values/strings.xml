@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">PracticaTema6</string>
+    <string name="app_name">FilmingApp</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Movie Masters</string>
+
     <string name="nav_header_subtitle">¡La mejor aplicación para encontrar tus películas y series favoritas!</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
@@ -92,5 +92,15 @@
     <string name="sinopsis_friends">SINOPSIS\nUn grupo de seis amigos en la ciudad de Nueva York navega por las complicaciones de la vida, el amor y la amistad. A través de su humor y corazón, la serie captura los altibajos de las relaciones modernas.</string>
     <string name="sinopsis_how_i_met_your_mother">SINOPSIS\nTed Mosby cuenta a sus hijos la historia de cómo conoció a su madre, narrando una serie de eventos cómicos y románticos con sus amigos en Nueva York. La serie mezcla humor y emoción mientras explora la búsqueda del amor y el significado de la amistad.</string>
     <string name="sinopsis_the_crown">SINOPSIS\nUn drama biográfico que sigue la vida de la reina Isabel II desde su matrimonio en 1947 hasta la actualidad. La serie explora los desafíos personales y políticos enfrentados por la monarca y su familia real.</string>
+
+    <!-- Temporadas series -->
+    <string name="temporadas_breaking_bad">TEMPORADAS\n5</string>
+    <string name="temporadas_game_of_thrones">TEMPORADAS\n8</string>
+    <string name="temporadas_stranger_things">TEMPORADAS\n4</string>
+    <string name="temporadas_the_office">TEMPORADAS\n9</string>
+    <string name="temporadas_sherlock">TEMPORADAS\n4</string>
+    <string name="temporadas_friends">TEMPORADAS\n10</string>
+    <string name="temporadas_how_i_met_your_mother">TEMPORADAS\n9</string>
+    <string name="temporadas_the_crown">TEMPORADAS\n6</string>
 
 </resources>

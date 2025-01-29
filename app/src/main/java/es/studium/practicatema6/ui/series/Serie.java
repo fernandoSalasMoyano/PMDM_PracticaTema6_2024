@@ -7,7 +7,7 @@ public class Serie {
     private float calificacion;
     private String reparto;
     private String sinopsis;
-    private int temporadas;
+    private String temporadas;
 
     public String getDirector()
     {
@@ -49,17 +49,17 @@ public class Serie {
         this.sinopsis = sinopsis;
     }
 
-    public int getTemporadas()
+    public String getTemporadas()
     {
         return temporadas;
     }
 
-    public void setTemporadas(int temporadas)
+    public void setTemporadas(String temporadas)
     {
         this.temporadas = temporadas;
     }
 
-    public Serie(String titulo, int imagenResId, String director, float calificacion, String reparto, String sinopsis, int temporadas) {
+    public Serie(String titulo, int imagenResId, String director, float calificacion, String reparto, String sinopsis, String temporadas) {
         this.titulo = titulo;
         this.imagenResId = imagenResId;
         this.director = director;

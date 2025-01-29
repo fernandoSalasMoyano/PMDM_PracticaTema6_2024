@@ -27,11 +27,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.223" />
 
-    <!-- Título de la película -->
 
-    <!-- Director de la película -->
-
-    <!-- RatingBar (puntuación) -->
 
     <TextView
         android:id="@+id/textViewTituloS"

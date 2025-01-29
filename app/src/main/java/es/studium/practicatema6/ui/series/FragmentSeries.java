@@ -17,13 +17,11 @@ import android.widget.ListView;
 import android.widget.Toast;
 
 import java.util.ArrayList;
-import java.util.Random;
 
-import es.studium.practicatema6.DetallesPeliculas;
 import es.studium.practicatema6.DetallesSeries;
 import es.studium.practicatema6.MiAdaptador;
 import es.studium.practicatema6.R;
-import es.studium.practicatema6.ui.peliculas.Pelicula;
+
 import es.studium.practicatema6.ui.series.Serie;
 
 public class FragmentSeries extends Fragment {
@@ -32,10 +30,8 @@ public class FragmentSeries extends Fragment {
     ListView listaSeries;
     ArrayList<Serie> series;
 
-
     public static FragmentSeries newInstance() {
         return new FragmentSeries();
-
     }
 
     @Override
@@ -56,7 +52,7 @@ public class FragmentSeries extends Fragment {
                 4,
                 getString(R.string.reparto_breaking_bad),
                 getString(R.string.sinopsis_breaking_bad),
-                5 // Número de temporadas totales
+                getString(R.string.temporadas_breaking_bad) // Número de temporadas desde strings.xml
         ));
         series.add(new Serie(
                 getString(R.string.serie_game_of_thrones),
@@ -65,7 +61,7 @@ public class FragmentSeries extends Fragment {
                 3,
                 getString(R.string.reparto_game_of_thrones),
                 getString(R.string.sinopsis_game_of_thrones),
-                8 // Número de temporadas totales
+                getString(R.string.temporadas_game_of_thrones)
         ));
         series.add(new Serie(
                 getString(R.string.serie_stranger_things),
@@ -74,7 +70,7 @@ public class FragmentSeries extends Fragment {
                 4,
                 getString(R.string.reparto_stranger_things),
                 getString(R.string.sinopsis_stranger_things),
-                4 // Número de temporadas actuales (actualizable si es necesario)
+                getString(R.string.temporadas_stranger_things)
         ));
         series.add(new Serie(
                 getString(R.string.serie_the_office),
@@ -83,7 +79,7 @@ public class FragmentSeries extends Fragment {
                 5,
                 getString(R.string.reparto_the_office),
                 getString(R.string.sinopsis_the_office),
-                9 // Número de temporadas totales
+                getString(R.string.temporadas_the_office)
         ));
         series.add(new Serie(
                 getString(R.string.serie_sherlock),
@@ -92,7 +88,7 @@ public class FragmentSeries extends Fragment {
                 5,
                 getString(R.string.reparto_sherlock),
                 getString(R.string.sinopsis_sherlock),
-                4 // Número de temporadas totales
+                getString(R.string.temporadas_sherlock)
         ));
         series.add(new Serie(
                 getString(R.string.serie_friends),
@@ -101,7 +97,7 @@ public class FragmentSeries extends Fragment {
                 4,
                 getString(R.string.reparto_friends),
                 getString(R.string.sinopsis_friends),
-                10 // Número de temporadas totales
+                getString(R.string.temporadas_friends)
         ));
         series.add(new Serie(
                 getString(R.string.serie_how_i_met_your_mother),
@@ -110,7 +106,7 @@ public class FragmentSeries extends Fragment {
                 5,
                 getString(R.string.reparto_how_i_met_your_mother),
                 getString(R.string.sinopsis_how_i_met_your_mother),
-                9 // Número de temporadas totales
+                getString(R.string.temporadas_how_i_met_your_mother)
         ));
         series.add(new Serie(
                 getString(R.string.serie_the_crown),
@@ -119,10 +115,8 @@ public class FragmentSeries extends Fragment {
                 2,
                 getString(R.string.reparto_the_crown),
                 getString(R.string.sinopsis_the_crown),
-                6 // Número de temporadas actuales (actualizable si es necesario)
+                getString(R.string.temporadas_the_crown)
         ));
-
-
 
         // Crear un Adaptador
         AdaptadorSeries adaptador = new AdaptadorSeries(requireContext(),
@@ -135,21 +129,22 @@ public class FragmentSeries extends Fragment {
         listaSeries.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                // Obtener la película seleccionada
+                // Obtener la serie seleccionada
                 Serie serieSeleccionada = series.get(position);
 
-                // Crear el intent para DetallesPeliculas
+                // Crear el intent para DetallesSeries
                 Intent visorDetalles = new Intent(requireContext(), DetallesSeries.class);
 
-                // Pasar los datos de la película al intent
+                // Pasar los datos de la serie al intent
                 visorDetalles.putExtra("tituloSerie", serieSeleccionada.getTitulo());
                 visorDetalles.putExtra("autorSerie", serieSeleccionada.getDirector());
                 visorDetalles.putExtra("imagenSerie", serieSeleccionada.getImagenResId());
                 visorDetalles.putExtra("calificacionSerie", serieSeleccionada.getCalificacion());
                 visorDetalles.putExtra("repartoSerie", serieSeleccionada.getReparto());
                 visorDetalles.putExtra("sinopsisSerie", serieSeleccionada.getSinopsis());
+                visorDetalles.putExtra("temporadasSerie", serieSeleccionada.getTemporadas());
 
-                // Iniciar la actividad DetallesPeliculas
+                // Iniciar la actividad DetallesSeries
                 startActivity(visorDetalles);
             }
         });
