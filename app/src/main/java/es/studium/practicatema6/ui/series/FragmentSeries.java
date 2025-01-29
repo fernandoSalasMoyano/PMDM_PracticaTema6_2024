@@ -31,7 +31,7 @@ public class FragmentSeries extends Fragment {
     private FragmentSeriesViewModel mViewModel;
     ListView listaSeries;
     ArrayList<Serie> series;
-    private Random aleatorio = new Random();
+
 
     public static FragmentSeries newInstance() {
         return new FragmentSeries();
@@ -53,7 +53,7 @@ public class FragmentSeries extends Fragment {
                 getString(R.string.serie_breaking_bad),
                 R.drawable.breaking_bad,
                 getString(R.string.creador_breaking_bad),
-                aleatorio.nextFloat() * 5,
+                4,
                 getString(R.string.reparto_breaking_bad),
                 getString(R.string.sinopsis_breaking_bad),
                 5 // Número de temporadas totales
@@ -62,7 +62,7 @@ public class FragmentSeries extends Fragment {
                 getString(R.string.serie_game_of_thrones),
                 R.drawable.game_of_thrones,
                 getString(R.string.creador_game_of_thrones),
-                aleatorio.nextFloat() * 5,
+                3,
                 getString(R.string.reparto_game_of_thrones),
                 getString(R.string.sinopsis_game_of_thrones),
                 8 // Número de temporadas totales
@@ -71,7 +71,7 @@ public class FragmentSeries extends Fragment {
                 getString(R.string.serie_stranger_things),
                 R.drawable.stranger_things,
                 getString(R.string.creador_stranger_things),
-                aleatorio.nextFloat() * 5,
+                4,
                 getString(R.string.reparto_stranger_things),
                 getString(R.string.sinopsis_stranger_things),
                 4 // Número de temporadas actuales (actualizable si es necesario)
@@ -80,7 +80,7 @@ public class FragmentSeries extends Fragment {
                 getString(R.string.serie_the_office),
                 R.drawable.the_office,
                 getString(R.string.creador_the_office),
-                aleatorio.nextFloat() * 5,
+                5,
                 getString(R.string.reparto_the_office),
                 getString(R.string.sinopsis_the_office),
                 9 // Número de temporadas totales
@@ -89,7 +89,7 @@ public class FragmentSeries extends Fragment {
                 getString(R.string.serie_sherlock),
                 R.drawable.sherlock,
                 getString(R.string.creador_sherlock),
-                aleatorio.nextFloat() * 5,
+                5,
                 getString(R.string.reparto_sherlock),
                 getString(R.string.sinopsis_sherlock),
                 4 // Número de temporadas totales
@@ -98,7 +98,7 @@ public class FragmentSeries extends Fragment {
                 getString(R.string.serie_friends),
                 R.drawable.friends,
                 getString(R.string.creador_friends),
-                aleatorio.nextFloat() * 5,
+                4,
                 getString(R.string.reparto_friends),
                 getString(R.string.sinopsis_friends),
                 10 // Número de temporadas totales
@@ -107,7 +107,7 @@ public class FragmentSeries extends Fragment {
                 getString(R.string.serie_how_i_met_your_mother),
                 R.drawable.how_i_met_your_mother,
                 getString(R.string.creador_how_i_met_your_mother),
-                aleatorio.nextFloat() * 5,
+                5,
                 getString(R.string.reparto_how_i_met_your_mother),
                 getString(R.string.sinopsis_how_i_met_your_mother),
                 9 // Número de temporadas totales
@@ -116,7 +116,7 @@ public class FragmentSeries extends Fragment {
                 getString(R.string.serie_the_crown),
                 R.drawable.the_crown,
                 getString(R.string.creador_the_crown),
-                aleatorio.nextFloat() * 5,
+                2,
                 getString(R.string.reparto_the_crown),
                 getString(R.string.sinopsis_the_crown),
                 6 // Número de temporadas actuales (actualizable si es necesario)

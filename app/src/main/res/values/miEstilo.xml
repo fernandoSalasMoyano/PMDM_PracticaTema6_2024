@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Tema principal de la aplicación -->
-    <style name="miEstilo" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="miEstilo" parent="Theme.AppCompat.Light">
+
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">false</item>
         <!-- Color de fondo de las actividades -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>

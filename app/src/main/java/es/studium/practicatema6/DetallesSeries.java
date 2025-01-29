@@ -2,6 +2,7 @@ package es.studium.practicatema6;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.widget.ImageView;
 import android.widget.RatingBar;
 import android.widget.TextView;
@@ -20,6 +21,11 @@ public class DetallesSeries extends AppCompatActivity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detalles_series);
+
+        // Habilitar el ActionBar
+        if (getSupportActionBar() != null) {
+            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        }
 
         TextView txtTitulo = findViewById(R.id.textViewTituloS);
         TextView txtDirector = findViewById(R.id.textViewDirectorS);
@@ -52,5 +58,14 @@ public class DetallesSeries extends AppCompatActivity
                 startActivity(intentImagenCompleta);
             });
         }
+    }
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if (item.getItemId() == android.R.id.home) {
+            // Volver a la actividad anterior
+            finish();
+            return true;
+        }
+        return super.onOptionsItemSelected(item);
     }
 }
